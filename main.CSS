@@ -1,0 +1,52 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: Helvetica, Oswald, sans;
+    background-image: url("background_1.jpg");
+    background-position: left bottom;
+    background-repeat: repeat-x;
+}
+
+main {
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+h1 {
+    margin: 0 0 0.5rem 0;
+}
+
+p {
+    margin: 0.5rem 0;
+}
+
+#install {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+}
+
+#install.hidden,
+div.info.hidden {
+    display: none;
+}
+
+canvas {
+    display: block;
+}
+
+div.info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+}
